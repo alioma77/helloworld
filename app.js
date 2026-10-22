@@ -91,4 +91,16 @@ for (let i = 0; i < fruits.length; i++){
 
 
 
+// --------------------------
+
+let energi = 3; 
+
+while (energi > 0){
+    console.log("sprang ett varv! energi kvar:" + energi);
+    energi--; //minskar energi med 1 efter varje varv
+}
+console.log("slut på energ! måste vila")
+//Looppar tills satsen är klar, alltså tills energi är slut. 
+
+
 
