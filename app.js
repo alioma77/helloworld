@@ -102,5 +102,20 @@ while (energi > 0){
 console.log("slut på energ! måste vila")
 //Looppar tills satsen är klar, alltså tills energi är slut. 
 
+// ---------------------------------
 
+
+let elever = [
+    {name: "Anna", poang: 85}, 
+    {name: "Ali", poang: 1000},
+    {name: "Björn", poang: 10},
+]
+
+for (let i = 0; i < elever.length; i++){
+    console.log(elever[i].name + "-" + elever[i].poang)
+}
+
+for (const elev of elever){
+    console.log(elev.namn)
+}
 
