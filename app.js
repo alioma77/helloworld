@@ -119,3 +119,16 @@ for (const elev of elever){
     console.log(elev.namn)
 }
 
+// ---------------------------------
+
+  for (let i = 5; i >= 1; i--){
+    if (i === 3){
+        console.log(i + "- halvvägs kvar")
+    } else{
+        console.log("sekunder kvar: " + i)
+    }
+    
+    }
+
+    console.log("LIFTOFF!")
+   
