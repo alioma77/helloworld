@@ -16,3 +16,16 @@ if (age >= 15 && hasTicket === true){
 // == ---> kolla om (värdet) är truthy
 // === ---> kolla om (värdet) är exakt samma som (värdet) i typ och värde
 
+const isLoggedIn = true
+const userRole = "admin"
+
+if (isLoggedIn === true){
+    if (userRole === "admin"){
+        console.log("Välkommen till Adminpanelen!")
+    } else {
+        console.log("Välkommen vanlig användare!")
+    }
+}
+    else{
+        console.log("Du måste logga in först!")
+    }
