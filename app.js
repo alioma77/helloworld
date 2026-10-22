@@ -62,3 +62,25 @@ if (isLoggedIn === true){
 
         default: console.log("kolla väderappen igen!")
     }
+
+
+
+    // for-loop
+
+    for (let i = 1; i<6; i++){
+        console.log(i)
+    }
+
+     for (let i = 10; i > 0; i--){
+        console.log(i)
+    }
+
+// i++  ---> i = i + 1
+
+// i--  ---> i = i - 1
+
+
+
+
+
+
