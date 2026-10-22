@@ -45,3 +45,20 @@ if (isLoggedIn === true){
 
         default: console.log("okänd signal")
     }
+
+
+
+    // --------------------------
+
+    const weather = "regn"
+
+    switch(weather){
+        case "regn": console.log("ta med ett paraply!")
+            break
+        case "sol": console.log("glöm inte solglasögon!")
+            break
+        case "snö": console.log("ta på dig en varm jacka!")
+            break
+
+        default: console.log("kolla väderappen igen!")
+    }
